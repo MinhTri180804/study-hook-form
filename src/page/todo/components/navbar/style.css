@@ -1,0 +1,25 @@
+.navbar {
+    padding: 15px 0px;
+    background-color: cadetblue;
+    margin-bottom: 40px;
+}
+
+.list__item-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.list__item-navbar li {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.list__item-navbar li:hover {
+    color: orangered;
+}

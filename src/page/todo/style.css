@@ -1,0 +1,26 @@
+.title-page {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.list__item li {
+    padding: 15px 0px;
+    background-color: teal;
+    margin: 5px 0px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.list__item li.completed {
+    text-decoration: line-through;
+    font-style: italic;
+    color: #ccc;
+}
+
+a {
+    display: flex;
+    flex-direction: ;
+}
